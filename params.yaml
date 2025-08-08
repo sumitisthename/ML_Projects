@@ -4,6 +4,7 @@ preprocess:
 
 train:
   input: data/processed/data_cleaned.csv
+  model: "models/rf_model.pkl"
   output: models/trained_model.pkl
   parameters:
     n_estimators: 100
